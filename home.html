@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title> Amitrakshar </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+  <!-- navgaition menu -->
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#services">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <div class="cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+      </ul>
+      
+      <div class="media-icons">
+        <a href="https://github.com/amitrakshar01"><i class="fab fa-github-square"></i></a>
+        <a href="https://twitter.com/AmitraksharS"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.linkedin.com/in/amitrakshar-sanyal-a59376191/"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+<!-- Home Section Start -->
+ <section class="home" id="home">
+   <div class="home-content">
+     <div class="text">
+       <div class="text-one">Hello,</div>
+       <div class="text-two">I'm Amitrakshar Sanyal</div>
+       <div class="text-three">Machine Learning Engineer</div>
+       <div class="text-four">From Kolkata, India</div>
+     </div>
+     <div class="button">
+       <a href="https://calendly.com/sanyalamitrakshar/30min" target="blank"><button>Hire Me</button></a>
+     </div>
+   </div>
+ </section>
+
+<!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+  <div class="about-details">
+    <div class="left">
+      <img src="images/photo_2021-12-04_14-38-29-modified.png" alt="">
+    </div>
+    <div class="right">
+      <div class="topic">Machine Learning Research is my Passion</div>
+      <p>I have been into the field of Machine Learning and data Analysis for about 2 years now, beginning to dive into Deep Learning. I have a profound knowledge on various Machine Learning algorithms like Linear regression, Logistic Regression, State Vector Machines, Naive Bayes, Decision Trees, etc. I have worked on multiple project works like Diabetes Prediction, Fake News prediction as well as Emotion Prediction Models. I have even worked in the field of IoT and Front end Development as a part of my hobby to learn more about different tech. </p>
+      <div class="button">
+        <button type="submit" onclick="window.open('images/Amitrakshar Sanyal Resume.pdf')">Download CV</button>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+
+<!-- My Skill Section Start -->
+<!-- Section Tag and Other Div will same where we need to put same CSS -->
+<section class="skills" id="skills">
+ <div class="content">
+   <div class="title"><span>My Skills</span></div>
+   <div class="skills-details">
+     <div class="text">
+       <div class="topic">Skills Reflects Our Knowledge</div>
+       <p><b>Programming Languages: </b>Python, R, C, C++, JavaScript, HTML(Markup Language), CSS(Style Sheets), Java</p><br>
+       <p><b>Machine Learning Tools: </b>Numpy, Pandas, Matplotlib, Seaborn, Tensorflow, Pytorch, etc.</p><br>
+       <p><b>Database: </b>MySQL, MongoDB</p><br>
+       <p><b>Front end: </b>React, HTML, CSS, JS</p><br>
+       <p><b>Back end: </b>Python</p><br>
+       <p><b>IDEs: </b>Jupyter, Google Colab, IBM Watson Studio, Spyder, VSCode, Codeblocks, Intellij, PopSQL</p><br>
+       <p><b>Other: </b>Linux -> Arch and Debian</p><br>
+       <div class="experience">
+         <div class="num">2</div>
+         <div class="exp">Years Of <br> Experience</div>
+       </div>
+     </div>
+     <div class="boxes">
+       <div class="box">
+         <div class="topic">Machine Learning</div>
+         <div class="per">90%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Python</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Java</div>
+         <div class="per">80%</div>
+       </div>
+       <div class="box">
+         <div class="topic">Linux</div>
+         <div class="per">60%</div>
+       </div>
+     </div>
+   </div>
+ </div>
+</section>
+
+<!-- My Services Section Start -->
+ <section class="services" id="services">
+   <div class="content">
+     <div class="title"><span>Projects</span></div>
+     <div class="boxes">
+       <div class="box">
+         <div class="icon">
+          <i class="fas fa-brain"></i>
+       </div>
+       <div id="p" class="topic" onclick="location.href='https://github.com/amitrakshar01/fake_news_detection'">Fake News Detection(Natural Language Processing)</div>
+       <p>Pulled out a dataset from kaggle.com and used it to detect the legibility of the news. The model I used was Logistic Regression, got accuracy about 91%.</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fas fa-brain"></i>
+       </div>
+       <div id="p" class="topic" onclick="location.href='https://github.com/amitrakshar01/diabetes_detection'">Diabetes Detection</div>
+       <p>Used a Kaggle Dataset to predict whether a patient has diabetes or not, achieving about 76.6% accuracy</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fas fa-brain"></i>
+       </div>
+       <div id="p" class="topic" onclick="location.href='https://github.com/amitrakshar01/Portfolio-Optimization'">Portfolio Optimization</div>
+       <p>Using classical algorithms, specifically Efficient Frontier Method to find out an overall optimized portfolio.</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+          <i class="fab fa-html5"></i>
+       </div>
+       <div id="p" class="topic" onclick="location.href='https://github.com/amitrakshar01/Euphoria'">Euphoria-Stream Music Anywhere</div>
+       <p>A static but fully responsive music web app made entirely with pure HTML, CSS, and JavaScript. The web app is
+        made entirely with pure logic and no frameworks used.</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fab fa-android"></i>
+       </div>
+       <div id="p" class="topic" onclick="location.href='https://github.com/amitrakshar01/IoT-Light-using-NodeMCU-and-Flutter'">IoT Light using NodeMCU and Flutter</div>
+       <p>Control the LED of your NodeMCU ESP8266 using an app made by you using Flutter</p>
+     </div>
+       <div class="box">
+         <div class="icon">
+           <i class="fas fa-tablet-alt"></i>
+       </div>
+       <div class="topic">IoT Based Temperature and Humidity Monitoring System for hill stations</div>
+       <p>Built a Temperature and Humidity Monitoring System using NodeMCU. Wrote a Conference paper on IEEE
+        where a model was built form the same and used specifically for tea estates and other plantations in the hill
+        stations for accurate monitoring of essential parameters.</p>
+     </div>
+   </div>
+   </div>
+ </section>
+
+<!-- Contact Me section Start -->
+<section class="contact" id="contact">
+  <div class="content">
+    <div class="title"><span>Contact Me</span></div>
+    <div class="text">
+      <div class="topic">Have Any Internship?</div>
+      <p><b>Domains: </b>Machine Learning, Software Development, Linux Administration, Python Development, IoT, and anything(Fast Learner)</p>
+      <div class="button">
+        <a href="mailto: sanyalamitrakshar@gmail.com"><button>Let's Chat</button></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section Start -->
+<footer>
+  <div class="text">
+    <span>Created By <a href="https://linktr.ee/amitrakshar">Amitrakshar</a> | &#169; 2021 All Rights Reserved</span>
+  </div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
