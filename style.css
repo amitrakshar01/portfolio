@@ -307,6 +307,18 @@ section .button button:hover{
   color: #4070f4;
 }
 
+.publication{
+  background: #F0F8FF;
+}
+
+.publication .content{
+  padding: 40px 40px 40px 40px;
+}
+
+.publication-details .text{
+  width: 100%;
+}
+
 /* My Services CSS */
 .services .boxes{
   display: flex;
@@ -354,11 +366,12 @@ section .button button:hover{
 }
 /* Contact Me CSS */
 .contact{
-  background: #F0F8FF;
+  background: #fff;
 }
 .contact .content{
   margin: 0 auto;
   padding: 30px 0;
+  background: #fff;
 }
 .contact .text{
   width: 80%;
